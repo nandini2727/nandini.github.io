@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio- Nandini Upadhyay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <a href="index.html"><h1 id="logo">Nandini Upadhyay</h1></a>
+            <nav id="nav-ops">
+                <a href="#sec1">Home</a>
+                <a href="#sec2">About</a>
+                <a href="#sec3">Certificates</a>
+                <a href="#sec4">Contact</a>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </nav>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+    </header>
+    <section id="sec1">
+            <div id="intro">
+                <p>Hello, I'm Nandini Upadhyay</p>
+                <p>I'm a <span>Web Developer</span></p>
+            </div>
+            <div id="image1"></div>
+    </section>
+    <section id="sec2">
+       
+            <div id="img2">
+            </div>
+            <div id="about">
+                <div class="info">
+                    <h2 class="title">About <span>Me</span></h2>
+                    <p>I'm a BCA student. I have keen interest web development. I've got the basics down and I'm all about learning more cool stuff.
+                         I like keeping up with what's new in web development. Excited to level up my skills and take on new challenges in  the web world.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul style="list-style-type: disc;">
+                            <li>Web Development</li>
+                            <li>Software Design</li>
+                            <li>Database Management</li>
+                            <li>Version Control</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2022-Current</span><br>BCA From MDS University, Ajmer</li>
+                            <li><span>2020-2021</span><br>12th from East Point Sr. Sec. School, Ajmer</li>
+                            <li><span>2018-2019</span><br>10th from East Point Sr. Sec. School, Ajmer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="languages">
+                        <ul>
+                            <li>HTML<div class="measure"></div></li>
+                            <li>CSS<div class="measure"></div></li>
+                            <li>Javascript<div class="inter" ></div></li>
+                            <li>Java<div class="measure"></div></li>
+                            <li>C++<div class="measure"></div></li>
+                            <li>PHP<div class=" inter"></div></li>
+                            <li>Python<div class="low"></div></li>
+                        </ul>
+                    </div>
+                </div> 
+  
+        </div>
+    </section>
+    <section id="sec3">
+        <div id="certificates">
+            <h2 class="title">My <span>Certificates</span></h2>
+            <div id="block">
+                <div class="container">
+                    <img src="assets/certificate1.jpeg" alt="error">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/KGV9RM9LKJZE?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" target="_blank">
+                        <div class="layer">
+                            <p>Java Programming: Solving Problems With Software</p>
+                         </div>
+                    </a>
+                </div>
+                <div class="container">
+                    <img src="assets/certificate2.jpg" alt="error">
+                    <a href="https://www.udemy.com/certificate/UC-60ed90f9-5b1d-48db-96e9-2e6bff639b65/" target="_blank">
+                        <div class="layer">
+                            <p>Javascript For Beginners: Complete Course</p>
+                        </div>
+                    </a>                   
+                </div>
+                <div class="container">
+                     <img src="assets/certificate3.jpeg" alt="error">
+                     <a href="https://www.coursera.org/account/accomplishments/verify/YFUPX64YRB75?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" target="_blank">
+                        <div class="layer">
+                            <p>Getting Started with Data Analysis on AWS</p>
+                        </div>
+                     </a>
+                     
+                </div>
+                <div class="container">
+                    <img src="assets/certificate4.jpeg" alt="error">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/5FG988QWTSLQ?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" target="_blank">
+                        <div class="layer">
+                            <p>Programming Foundation with Javascript, HTML and CSS</p>
+                        </div>
+                    </a>
+                    
+               </div>
+               <div class="container">
+                    <img src="assets/certificate5.jpeg" alt="error">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/XY8DJS6KSYDQ?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" target="_blank">
+                    <div class="layer">
+                        <p>Java Programming: Principles of Software Design</p>
+                    </div>
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec4">
+        <h2 class="title">Contact <span>Me</span></h2>
+        <div class="contact">
+            <div id="col1">
+               <h2>Let's Connect</h2>
+                <button class="btn">Download CV</button>
+
+         </div>
+            <div id="col2">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" class="in" placeholder="Name" name="Name" required><br>
+                    <input type="email" class="in" placeholder="Email ID" name="Email" required><br>
+                    <textarea placeholder="Message" class="in" style="height: 130px;" name="Message" required></textarea><br>
+                    <input type="submit" value="Send" class="btn">
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </section>
+    <script type="text/Javascript" src="script.js">
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby-x9zBQbXA0xfee5K92kssHIsAEipPQbZloWCa-zg-smASpXU1QaFE3V8-lsUFkGJW/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+        form.addEventListener('submit', e => {
+           document.body.style.cursor="progress"
+           
+           e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },3000)
+                form.reset()
+                document.body.style.cursor="default"
+             })
+            .catch(error => console.error('Error!', error.message))
+        })
+      
+      </script>
+</body>
+</html>
