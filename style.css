@@ -300,15 +300,14 @@ html{
 .fa-solid{
     display:none;
 }
-@media (max-width:900px),(min-width:600px){
 
-}
-@media (max-width:600px){
+@media (max-width:900px){
     #logo{
         font-size: 1.7rem;
     }
     #sec1{
-        background-image: url(assets/backgroundphone.jpg);
+        background-image: url(assets/background1mobile.jpg);
+        
     }
     #image1{
         display: none;
