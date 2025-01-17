@@ -176,8 +176,8 @@ header{
 }
 .tab-content.active-tab{
     display:block;
-    animation: fadeinoutani 0.25s 1 alternate;
-    animation-timing-function: ease-in;
+    animation: fadeinoutani 0.25s 1 ;
+    /* animation-timing-function: ease-in; */
    
 }
 @keyframes fadeinoutani {
